@@ -8,18 +8,12 @@ pipeline {
 
 
     environment {
-        EMAIL_RECIPIENT = "aarzoo.jain@infobeans.com"
+        EMAIL_RECIPIENT = "example@example.com"
 
     }
 
     stages {
-//         stage("Checkout the code") {
-//             steps {
-//             git branch: 'develop', credentialsId: '', url: 'http://infobeansgitlab.internal/aarzoo.jain/selenium-python.git'
-//             }
-//         }
-// apt-get install python3-pip python3-setuptools python3.9-venv -y
-// apt-get install -y libglib2.0 libnss3 libgconf-2-4 libfontconfig1
+
 
         stage('Run the tests') {
             steps {
