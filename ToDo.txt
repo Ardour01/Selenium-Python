@@ -1,0 +1,18 @@
+- Capability for multiple browser run
+- Parallel run
+- Run using selenium-grid
+- Use xlsx to control the run of test cases
+- use pytest.ini file
+- use pytest reporter
+- use allure report
+- update logger (in log file and in reports)
+- Use Jenkins file
+- use docker file
+- appealing README.md
+- Implement fixtures
+- Implement something similar to .vscode file
+- Implement auto-pylint checker
+- Implement sonar-qube for automation
+- Implement git-hooks
+- Update base page to take all locators
+

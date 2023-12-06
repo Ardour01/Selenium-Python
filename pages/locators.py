@@ -1,0 +1,1 @@
+date_picker_btn_xpath = "//a[@class='dropdown-toggle' and contains(text(), 'Date pickers')]"
